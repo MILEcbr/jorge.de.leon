@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+<!--Encabezado-->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">JORGE DE LEÓN</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#habilidades" onclick="seleccionar()">HABILIDADES</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    
+                    
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+
+
+    </div>
+<!--Inicio-->
+<section id="inicio" class="inicio">
+    <div class="contenido-banner">
+        <div class="contenedor-img">
+            <img src="styles/images/foto.jpg" alt="">
+        </div>
+        <h1>JORGE DE LEÓN</h1>
+        <h2>Diseñador Gráfico</h2>
+        <div class="redes">
+            <a href="https://www.linkedin.com/in/jorge-de-leon" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+        
+        </div>
+    </div>
+</section>
+<section id="sobremi" class="sobremi">
+    <div class="contenido-seccion">
+        <h2>Sobre Mi</h2>
+        <p><span>Hola, Soy Jorge.</span>Diseñador</p>
+            <div class="fila"> <!--datos personales-->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            +54 9 11 40990670
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            Jorgedeleo.zx@outlook.com
+                        </li>
+                        <li>
+                            <strong>Localidad</strong>
+                            La Plata, Buenos Aires
+                        </li>
+                    </ul>
+                </div>
+                <div class="col">  <!--intereses-->
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-pencil"></i>
+                            <span>DIBUJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-cake-candles"></i>
+                            <span>REPOSTERIA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Botón de descarga -->
+            <a href="descargas/CV " download="Jorge de León-cv.docx" class="download-button">
+                Descargar CV <i class="fas fa-cloud-arrow-down"></i>
+                <span class="overlay"></span>
+            </a>
+    </div>
+</section>
+<!--habilidades-->
+<section class="habilidades" id="habilidades">
+    <div class="contenido-seccion">
+        <h2>HABILIDADES</h2>
+        <div class="fila">
+            <div class="col">
+                <h3>Habilidades Técnicas</h3>
+                <div class="habilidades">
+                    <span></span>
+                </div>
+                <div class="habilidades">
+                    <span></span>
+                </div>
+                <div class="habilidades">
+                    <span></span>
+                </div>
+                <div class="habilidades">
+                    <span></span>
+                </div>
+                <div class="habilidades">
+                    <span></span>
+                </div>
+                <div class="habilidades">
+                    <span>Photoshop: Intermedio</span>
+                </div>
+                <div class="habilidades">
+                    <span>Word: Intermedio</span>
+                </div>
+                <div class="habilidades">
+                    <span>Excel: Básico</span>
+                </div>
+                <div class="habilidades">
+                    <span>PowerBI: Básico</span>
+                </div>
+            </div>
+            <div class="col">
+                <h3>Habilidades Profesionales</h3>
+                <div class="habilidades">
+                    <span>Trabajo en equipo</span>
+                </div>
+                <div class="habilidades">
+                    <span>Creatividad</span>
+                </div>
+                <div class="habilidades">
+                    <span>Dedicación</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--portfolio-->
+<section id="portfolio" class="portfolio">
+    <div class="contenido-seccion">
+        <h2>PORTFOLIO</h2>
+        <div class="galeria">
+            <div class="proyecto">
+                <img src="styles/images/2.jpg" alt="">
+                <div class="overlay">
+                    <h3></h3>
+                    <p></p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <img src="styles/images/3.jpg" alt="">
+                <div class="overlay">
+                    <h3></h3>
+                    <p></p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <img src="styles/images/casa.jpg" alt="">
+                <div class="overlay">
+                    <h3></h3>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--footer-->
+<footer>
+    <a href="#inicio" class="arriba">
+        <i class="fa-solid fa-angles-up"></i>
+    </a>
+    <div class="redes">
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+    </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
